@@ -6,7 +6,7 @@
 
 # Imagine now that we live on planet XY140Z-n where the days of the week are numbered from 0 to n (integer n > 0) and where I save from week number 0 to week number n included (in the table below n = 6).
 
-# How much money would I have at the end of my financing plan on planet XY140Z-n?
+# How much money would I have at the end of my financing plan on planet XY140-n?
 
 # --	Su	Mo	Tu	We	Th	Fr	Sa
 # W6							12
