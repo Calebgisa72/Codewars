@@ -7,7 +7,7 @@
 
 def duplicate_encode(word):
     word = word.lower()
-    # seen = {}
+    seen = {}
     for chr in word:
         seen[chr] = seen.get(chr,0) + 1
     
