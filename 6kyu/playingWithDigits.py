@@ -15,4 +15,5 @@ def dig_pow(n, p):
     return int(k) if k.is_integer() else -1
 
 print(dig_pow(89, 1))
+print(dig_pow(92, 2))
 print(dig_pow(46288, 3))
