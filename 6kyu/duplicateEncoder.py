@@ -6,7 +6,7 @@
 # "Success"  =>  ")())())"
 
 def duplicate_encode(word):
-    # word = word.lower()
+    word = word.lower()
     seen = {}
     for chr in word:
         seen[chr] = seen.get(chr,0) + 1
