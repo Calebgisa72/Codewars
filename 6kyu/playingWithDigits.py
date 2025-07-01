@@ -2,7 +2,7 @@
 # In other words, writing the consecutive digits of n as a, b, c, d ..., is there an integer k such that :
 
 # If it is the case we will return k, if not return -1.
-# Note: n and p will always be strictly positive integers.
+# Note: n and  will always be strictly positive integers.
 
 # Examples:
 # n = 89; p = 1 ---> 1 since 8¹ + 9² = 89 = 89 * 1
