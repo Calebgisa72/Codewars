@@ -9,7 +9,7 @@
 #         "......",
 #         "......",
 #         ".....W",
-#         "W."
+#         "W"
 #     ])
 #     test.assert_equals(path_finder(maze), False, repr(maze))
 
