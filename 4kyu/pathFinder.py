@@ -25,7 +25,7 @@ def path_finder(maze):
         if x == m - 1 and y == n - 1:
             return True
     
-        if x >= 0 and x < m and y >= 0 and y < n and (x,y) not in seen and mazeGrid[x][y] == '':
+        if x >= 0 and x < m and y >= 0 and y < n and (x,y) not in seen and mazeGrid[x][y] == '.':
             seen.add((x,y))
             stack.append((x+1,y))
             stack.append((x-1,y))
