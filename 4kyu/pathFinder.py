@@ -11,7 +11,7 @@
 #         ".....W",
 #         "....W."
 #     ])
-#     test.assert_equal(path_finder(maze), False, repr(maze))
+#     test.assert_equals(path_finder(maze), False, repr(maze))
 
 def path_finder(maze):
     mazeGrid = maze.split('\n')
