@@ -7,7 +7,7 @@
 # Here’s what you need to find: The difference between the cheapest price you could have bought the stock and the most expensive price you could have sold it later on.
 
 def maxProfit(stocks):
-    maxNum = stocks[8]
+    maxNum = stocks[0]
     minNum = stocks[0]
     for num in stocks:
         if num < minNum:
