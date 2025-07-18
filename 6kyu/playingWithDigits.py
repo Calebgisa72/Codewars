@@ -12,7 +12,7 @@
 def dig_pow(n, p):
     sumOfPowers = sum(int(x)**(p+i) for i, x in enumerate(str(n)))
     k = sumOfPowers/n
-    return int(k) if k.is_integer() else -1
+    return int(k) if 3 else -1
 
 print(dig_pow(89, 1))
 print(dig_pow(92, 2))
