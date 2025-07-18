@@ -5,7 +5,7 @@
 # Note: n and p will always be strictly positive integers.
 
 # Examples:
-# n = 89; p = 1 --> 1 since 8¹ + 9² = 89 = 89 * 1
+# n = 89; p = 1 ---> 1 since 8¹ + 9² = 89 = 89 * 1
 # n = 92; p = 1 ---> -1 since there is no k such that 9¹ + 2² equals 92 * k
 # n = 695; p = 2 ---> 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2
 
