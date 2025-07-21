@@ -12,7 +12,9 @@ def permutations(s):
     res = []
     stack = []
 
-    
+    from collections import Counter
+    s_count = Counter(s)
+    seen = set()
 
     for chr in s:
         stack.append([chr])
@@ -21,14 +23,18 @@ def permutations(s):
         top = stack.pop()
 
         if len(top) == len(s):
-            res.append(''.join(top))
+            perm = ''.join(top)
+            if perm not in seen:
+                res.append(perm)
+                seen.add(perm)
         
+        top_count = Counter(top)
         for chr in s:
-            if chr not in top:
+            if s_count[chr] != top_count[chr]:
                 newT = top[:]
                 newT.append(chr)
                 stack.append(newT)
     
     return res
 
-print(permutations('aabb'))
+print(permutations('aabc'))
