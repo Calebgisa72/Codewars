@@ -3,7 +3,7 @@
 
 # Examples:
 # With input 'ab':
-# Your function should return ['ab', 'b']
+# Your function should return ['ab', 'ba']
 
 # With input 'abc':
 # Your function should return ['abc','acb','bac','bca','cab','cba']
