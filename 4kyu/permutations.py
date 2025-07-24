@@ -2,7 +2,7 @@
 # Create as many "shufflings" as you can!
 
 # Examples:
-# With input 'a':
+# With input 'ab':
 # Your function should return ['ab', 'ba']
 
 # With input 'abc':
