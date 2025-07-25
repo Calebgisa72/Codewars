@@ -9,7 +9,7 @@
 # How much money would I have at the end of my financing plan on planet XY140-n?
 
 # --	Su	Mo	Tu	We	Th	Fr	Sa
-# W6							1
+# W6							12
 # W5						10	11
 # W4					8	9	10
 # W3				6	7	8	9
