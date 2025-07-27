@@ -6,7 +6,7 @@
 
 # Examples:
 # n = 89; p = 1 ---> 1 since 8¹ + 9² = 89 = 89 * 1
-# n = 92; p = 1 ---> -1 since there is no k suh that 9¹ + 2² equals 92 * k
+# n = 92; p = 1 ---> -1 since there is no k such that 9¹ + 2² equals 92 * k
 # n = 695; p = 2 ---> 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2
 
 def dig_pow(n, p):
@@ -16,4 +16,3 @@ def dig_pow(n, p):
 
 print(dig_pow(89, 1))
 print(dig_pow(92, 2))
-print(dig_pow(46288, 3))
