@@ -16,3 +16,4 @@ def dig_pow(n, p):
 
 print(dig_pow(89, 1))
 print(dig_pow(92, 2))
+print(dig_pow(46288, 3))
