@@ -6,7 +6,7 @@
 # Your function should return ['ab', 'ba']
 
 # With input 'abc':
-# Your function should return ['abc','acb','bac','bca','cab','cba']
+# Your function should return ['abc','acb','bac','bca','cab','ca']
 
 def permutations(s):
     res = []
