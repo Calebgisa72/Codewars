@@ -1,4 +1,4 @@
-# This function finds the unique number in an array of similar numbers
+# This function finds the unique number in an  of similar numbers
 
 def find_uniq(nums: list):
     identicalNum = nums[0] if nums[0] == nums[1] else (nums[0] if nums[0] == nums[2] else nums[2])
